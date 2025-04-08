@@ -34,3 +34,10 @@ desktop.ini
 # 가상 환경 설정 관련 파일
 pip-log.txt
 pip-delete-this-directory.txt
+
+# PyInstaller 빌드 디렉터리
+build/
+dist/
+
+# PyInstaller spec 파일
+*.spec

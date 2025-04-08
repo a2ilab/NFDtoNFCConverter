@@ -43,7 +43,7 @@ python nf_converter_app.py
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed nf_converter_app.py
+pyinstaller --onefile --windowed main.py
 ```
 
 - 위 명령을 실행하면 `dist` 폴더에 실행 가능한 파일이 생성됩니다.
