@@ -1,0 +1,36 @@
+# Python 캐시 파일 및 컴파일된 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 배포 패키지 및 압축 파일
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 환경설정 및 환경변수 파일
+.env
+.venv/
+venv/
+ENV/
+
+# PyCharm 관련 파일
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints
+
+# macOS 시스템 파일
+.DS_Store
+
+# 윈도우 시스템 파일
+Thumbs.db
+desktop.ini
+
+# 가상 환경 설정 관련 파일
+pip-log.txt
+pip-delete-this-directory.txt
